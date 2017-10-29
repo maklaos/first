@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-animate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-i18n/1.6.6/angular-locale_uk-ua.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <div class="nav navbar-nav">
+      <button type="button" class="btn btn-primary" name="button">
+        <span class="glyphicon glyphicon-comment"></span>
+        <span class="hidden-xs">Contact us</span>
+      </button>
+      <button type="button" class="btn btn-success" name="button">
+        <span class="glyphicon glyphicon-euro"></span>
+        <span class="hidden-xs">Payment</span>
+      </button>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuNav">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#headerNav">
+        <span class="glyphicon glyphicon-user"></span>
+      </button>
+      <button class="navbar-toggle" data-toggle="collapse" id="showPhone" >
+        <span class="glyphicon glyphicon-phone"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="headerNav">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="phone hidden-xs" style="display:none">
+          <a href="tel:+380930000000">(093) 000 00 00</a>
+        </li>
+        <li class="phone hidden-xs" style="display:none">
+          <a href="tel:+38067000000">(067) 000 00 00</a>
+        </li>
+        <li class="phone hidden-xs" style="display:none">
+          <a href="tel:+380500000000">(050) 000 00 00</a>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"> Login</a></li>
+        <!-- <li>
+          <div class="visible-xs">xs</div>
+          <div class="visible-sm">sm</div>
+          <div class="visible-md">md</div>
+          <div class="visible-lg">lg</div>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 col-sm-2 col-xs-12">
+        <a href=""><img src="img/logo.png" class="img-responsive"></a>
+      </div>
+      <div class="">
+        <div class="col-md-3 col-sm-3 col-xs-12 col-md-offset-1">
+          <div class="operators hidden-xs">
+            Lifecell
+          </div>
+          <div class="phones hidden-xs">
+            <a href="tel:+380930000000">+38 (093) 000 00 00</a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="operators hidden-xs">
+            Kyivstar
+          </div>
+          <div class="phones hidden-xs">
+            <a href="tel:+380670000000">+38 (067) 000 00 00</a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="operators hidden-xs">
+            Vodafone
+          </div>
+          <div class="phones hidden-xs">
+            <a href="tel:+380500000000">+38 (050) 000 00 00</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav class="navbar menu ">
+  <div class="container-fluid">
+
+    <div class="collapse navbar-collapse" id="menuNav">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Internet</a></li>
+        <li><a href="#">TV</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Payment</a></li>
+        <li><a href="#">Promos</a></li>
+        <li><a href="#">Tariffs</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<article class="">
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>XNet internet provider</h1>
+      <p>
+        An Internet service provider (ISP) is an organization that provides services
+        accessing and using the Internet. Internet service providers may be organized
+        in various forms, such as commercial, community-owned, non-profit, or otherwise
+        privately owned.
+      </p>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <h1>Price</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            Internet
+          </div>
+          <div class="panel-body">
+              <p><span class="glyphicon glyphicon-ok"></span> Stable connection</p>
+              <p><span class="glyphicon glyphicon-ok"></span> Maximum speed</p>
+              <p><span class="glyphicon glyphicon-ok"></span> Tech support</p>
+              <p><span class="glyphicon glyphicon-ok"></span> Stable connection</p>
+              <p><span class="glyphicon glyphicon-ok"></span> Maximum speed</p>
+              <p><span class="glyphicon glyphicon-ok"></span> Tech support</p>
+              <button type="button" class="btn btn-success btn-block" name="button">
+                Details
+              </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            TV
+          </div>
+          <div class="panel-body">
+            <p><span class="glyphicon glyphicon-ok"></span> 140+ chanels</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Multilanguage</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Tech support</p>
+            <p><span class="glyphicon glyphicon-ok"></span> 140+ chanels</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Multilanguage</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Tech support</p>
+            <button type="button" class="btn btn-success btn-block" name="button">
+              Details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            Service
+          </div>
+          <div class="panel-body">
+            <p><span class="glyphicon glyphicon-ok"></span> Wifi-router setting</p>
+            <p><span class="glyphicon glyphicon-ok"></span> TV setting</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Tech support</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Wifi-router setting</p>
+            <p><span class="glyphicon glyphicon-ok"></span> TV setting</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Tech support</p>
+            <button type="button" class="btn btn-success btn-block" name="button">
+              Details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="features text-center">
+    <h1>Why us?</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <a href="#"><img src="img/24_7.png" alt=""></a>
+              <div class="info">
+                <h4>24/7 online help</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <a href="#"><img src="img/speed.jpg" alt=""></a>
+              <div class="info">
+                <h4>Best speed</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <a href="#"><img src="img/payment.png" alt=""></a>
+              <div class="info">
+                <h4>Easy payment</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<footer class="navbar navbar-inverse">
+  <div class="navbar-header">
+    <span class="navbar-brand">XNet</span>
+  </div>
+</footer>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#showPhone").click(function(){
+      $(".phones").each(function() {
+        $(this).toggleClass("hidden-xs");
+      });
+    });
+  });
+
+  $(document).scroll(function() {
+    var scroll = $(this).scrollTop();
+    $(".phone").each(function() {
+      if (scroll >= 70) {
+        $(this).fadeIn("fast");
+      }
+      if (scroll <= 70) {
+        $(this).fadeOut("fast");
+      }
+    });
+  });
+
+
+  var app = angular.module("myApp", []);
+  app.controller("myCtrl",function ($scope) {
+
+  });
+</script>
+
+</body>
+</html>

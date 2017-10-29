@@ -1,0 +1,89 @@
+// out: style.css
+
+@gray: #e5e5e5;
+@white: #fff;
+@blue: #337ab7;
+@dark-blue: #2e6da4;
+@btn-success: #5cb85c;
+
+nav {
+  // height: 60px;
+  // background-color: @white;
+  // border-bottom: 1px solid @gray;
+
+  button{
+    margin-top:8px;
+  }
+}
+
+header{
+  font-size: 18px;
+  margin-top:70px;
+}
+
+.operators{
+  background-color: @gray;
+  width: 100px;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+
+.phones{
+  float:left;
+
+  a{
+    text-decoration: none;
+    color: #000;
+
+    &:hover{
+      text-decoration: none;
+      color: @blue;
+    }
+  }
+}
+
+nav.menu{
+  margin-top: 20px;
+  background-color: @blue;
+  border-radius: 0px !important;
+  min-height: 0px;
+  border: 0px !important;
+
+  a{
+      color: @gray;
+
+      &:hover{
+        background-color: @dark-blue !important;
+      }
+  }
+
+  .navbar-nav{
+    float: none !important;
+    display: block !important;
+    text-align: center !important;
+  }
+
+  .navbar-nav>li{
+    float: none !important;
+    display: inline-block !important;
+  }
+}
+
+article{
+  .panel-heading{
+    background-color: @btn-success !important;
+    color: @white !important;
+  }
+
+  .btn-success{
+    color: #000;
+    background-color: @white;
+  }
+
+
+}
+
+footer.navbar{
+  border-radius: 0px;
+  margin-bottom: 0px !important;
+}
