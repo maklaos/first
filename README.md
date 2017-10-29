@@ -1,7 +1,5 @@
 # first
 
-this is test project
-
-first change
+web sites examples
 
 maklaosdelay@gmail.com

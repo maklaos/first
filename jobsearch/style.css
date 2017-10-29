@@ -1,0 +1,48 @@
+#about {
+	padding-top:50px;
+	min-height:400px;
+	color: #fff; 
+	background-color: #1E88E5;
+}
+
+#categories {
+	padding-top:50px;
+	min-height:500px;
+	color: #fff; 
+	background-color: #ff9800;
+}
+
+#cv {
+	padding-top:50px;
+	height:500px;
+	color: #fff; 
+	background-color: #673ab7;
+}
+
+#contacts {
+	padding-top:50px;
+	height:500px;
+	color: #fff; 
+	background-color: #00bcd4;
+}
+
+footer {
+	background-color:#009688;
+	height:50px;
+	text-align:center;
+}
+
+div h1, #about p {
+	text-align: center;
+}
+
+#about .row div{
+	text-align: center;
+	margin-bottom:20px;
+}
+
+#categories div div a{
+	color: #fff !important;
+	font-weight: bold !important;
+}
+
