@@ -184,15 +184,6 @@ header {
       .carousel-caption{
         top: 29%;
 
-        @media (max-width: 768px) {
-          h3 {
-            font-size: 30px !important;
-          }
-          p{
-            font-size: 10px !important;
-          }
-        }
-
         h3{
           font-family: Lato;
           font-size: 64px;
@@ -207,6 +198,25 @@ header {
           font-family: Lato;
           font-weight: bold;
           font-size: 16px;
+        }
+
+        @media (min-width: 460px) and (max-width: 768px) {
+          h3 {
+            font-size: 30px !important;
+          }
+          p{
+            font-size: 10px !important;
+          }
+        }
+
+        @media (max-width: 460px) {
+          h3 {
+            font-size: 23px !important;
+            margin-bottom: 8px !important;
+          }
+          p{
+            font-size: 8px !important;
+          }
         }
       }
     }
@@ -465,6 +475,10 @@ footer{
   .navbar{
     border-radius: 0px !important;
     margin-bottom: 0px !important;
+
+    .navbar-nav>li{
+      float: left !important;
+    }
   }
 
 }
