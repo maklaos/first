@@ -1,0 +1,27 @@
+{"phones":[
+    {"number":"+380930000000","name":"Lifecell","full":"+38 (093) 000 00 00","short":"(093) 000 00 00"},
+    {"number":"+380670000000","name":"Kyivstar","full":"+38 (067) 000 00 00","short":"(067) 000 00 00"},
+    {"number":"+380500000000","name":"Vodafone","full":"+38 (050) 000 00 00","short":"(050) 000 00 00"}
+  ],"inet_features":[
+      {"k":"Stable connection"},
+      {"k":"Maximum speed"},
+      {"k":"Tech support"},
+      {"k":"Stable connection"},
+      {"k":"Maximum speed"},
+      {"k":"Tech support"}
+  ],"tv_features":[
+      {"k":"140+ chanels"},
+      {"k":"Multilanguage"},
+      {"k":"Tech support"},
+      {"k":"140+ chanels"},
+      {"k":"Multilanguage"},
+      {"k":"Tech support"}
+  ],"service_features":[
+      {"k":"Wifi-router setting","price":"50"},
+      {"k":"Maximum speed","price":"30"},
+      {"k":"Tech support","price":"100"},
+      {"k":"Wifi-router setting","price":"50"},
+      {"k":"Maximum speed","price":"30"},
+      {"k":"Tech support","price":"100"}
+  ]
+}
