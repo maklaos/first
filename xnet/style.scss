@@ -6,11 +6,32 @@ $blue: #337ab7;
 $dark-blue: #2e6da4;
 $btn-success: #5cb85c;
 
-// nav {
-//   a{
-//     margin-top:8px;
-//   }
-// }
+@mixin background-opacity($color, $opacity) {
+    background: $color;
+    background: rgba($color, $opacity);
+}
+
+.login-form{
+  margin-top: 150px;
+  @include background-opacity($gray, .7);
+  padding-bottom: 30px;
+  box-shadow: 0 0 20px rgba(0,0,0,.7);
+  border-radius: 4px;
+
+  .input-group{
+    margin-bottom:5px;
+  }
+
+  @media(max-width:728px){
+    &{
+      margin-top:100px;
+    }
+  }
+}
+
+
+
+
 
 header{
   font-size: 18px;
